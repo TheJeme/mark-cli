@@ -1,0 +1,58 @@
+@font-face { font-family: FiraCode; src: url('FiraCode.ttf'); } 
+
+html, body {
+  font-family: FiraCode, sans-serif;
+  background-color: #22222A;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+a {
+  color: #78E2A0;
+  text-decoration: none;
+  min-width: 160px;
+  padding: 1em;
+  flex-basis: calc(33% - 48px);
+  border: 1px solid rgba(120, 226, 160, 0.5);
+  background-color: #1B1F22;
+}
+
+@media screen and (max-width: 800px) {
+  a {
+    min-width: 100%;
+  }
+}
+
+p {
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.info {
+  border: 1px solid rgba(120, 226, 160, 0.2);
+  background-color: #1B1F22;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
